@@ -1,4 +1,4 @@
-# Node.js & Passport Login
+# Login System using Node.js and Passport
 
 This is an app to use authentication using Node.js, Express, Passport, Mongoose, EJS and some other packages.
 
