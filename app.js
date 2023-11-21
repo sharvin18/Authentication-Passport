@@ -9,6 +9,7 @@ const app = express();
 
 /// Passport config
 require('./config/passport')(passport);
+var userProfile; 
 
 /// DB configuration
 const db = require('./config/keys').MongoURI;

@@ -105,4 +105,19 @@ router.post('/login', (req, res, next) =>{
     })(req, res, next);
 });
 
+// OAuth
+router.get('/auth/google', 
+    passport.authenticate('google', {
+        scope: ['profile', 'email']
+    }
+));
+
+router.post('/auth/google/callback', (req, res, next) =>{
+    passport.authenticate('google', {
+        successRedirect: '/dashboard',
+        failureRedirect: '/users/login',
+        failureFlash: true
+    })(req, res, next);
+});
+
 module.exports = router;
