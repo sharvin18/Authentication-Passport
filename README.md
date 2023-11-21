@@ -8,9 +8,7 @@ This is an app to use authentication using Node.js, Express, Passport, Mongoose,
 
 ```sh
 $ npm install
-```
 
-```sh
 #run with Node
 $ npm start
 
@@ -22,4 +20,15 @@ $ npm run dev
 
 ### MongoDB
 
-Open "config/keys.js" and add your MongoDB URI, local or Atlas
+Open [this](config/keys.js) and add your MongoDB URI, Google OAuth ClientID, Client Secret and Redirect URL
+
+### Screens
+
+Login
+![Login](https://github.com/sharvin18/Authentication-Passport/blob/main/images/login.png)
+
+Register
+![Register](https://github.com/sharvin18/Authentication-Passport/blob/main/images/register.png)
+
+Login Failed
+![Login Failed](https://github.com/sharvin18/Authentication-Passport/blob/main/images/incorrect.png)
