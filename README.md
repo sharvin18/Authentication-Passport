@@ -2,14 +2,13 @@
 
 This is an app to use authentication using Node.js, Express, Passport, Mongoose, EJS and some other packages.
 
-### Version: 1.0.0
-
 ### Usage
 
 ```sh
+# Install the dependencies
 $ npm install
 
-#run with Node
+# Run with Node
 $ npm start
 
 # Or run with Nodemon
